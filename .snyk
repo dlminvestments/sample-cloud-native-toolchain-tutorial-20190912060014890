@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - phantomjs > request > hawk > hoek:
+        patched: '2019-09-23T08:05:21.744Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2019-09-23T08:05:21.744Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-09-23T08:05:21.744Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2019-09-23T08:05:21.744Z'
+  'npm:lodash:20180130':
+    - swagger-express-mw > swagger-node-runner > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machine > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machine > rttc > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+    - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2019-09-23T08:05:21.744Z'
+  'npm:request:20160119':
+    - phantomjs > request:
+        patched: '2019-09-23T08:05:21.744Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2019-09-23T08:05:21.744Z'
+  'npm:tunnel-agent:20170305':
+    - phantomjs > request > tunnel-agent:
+        patched: '2019-09-23T08:05:21.744Z'
