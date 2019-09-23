@@ -38,3 +38,6 @@ patch:
   'npm:tunnel-agent:20170305':
     - phantomjs > request > tunnel-agent:
         patched: '2019-09-23T08:05:21.744Z'
+  'npm:tough-cookie:20160722':
+    - phantomjs > request > tough-cookie:
+        patched: '2019-09-23T08:12:17.654Z'
