@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -41,3 +41,26 @@ patch:
   'npm:tough-cookie:20160722':
     - phantomjs > request > tough-cookie:
         patched: '2019-09-23T08:12:17.654Z'
+  SNYK-JS-LODASH-567746:
+    - swagger-tools > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - newrelic > async > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - swagger-tools > async > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - swagger-tools > json-refs > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - swagger-tools > json-refs > graphlib > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - swagger-express-mw > swagger-node-runner > sway > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - phantomjs > request > form-data > async > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
+    - swagger-express-mw > swagger-node-runner > sway > json-refs > graphlib > lodash:
+        patched: '2020-04-30T22:01:45.215Z'
