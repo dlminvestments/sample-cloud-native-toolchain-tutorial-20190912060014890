@@ -43,10 +43,8 @@ patch:
   'npm:tough-cookie:20160722':
     - phantomjs > request > tough-cookie:
         patched: '2019-09-23T08:12:17.654Z'
-  'npm:minimatch:20160620':
-    - gulp > vinyl-fs > glob-stream > minimatch:
-        patched: '2020-12-01T06:28:03.516Z'
-    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
-        patched: '2020-12-01T06:28:03.516Z'
-    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
-        patched: '2020-12-01T06:28:03.516Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T22:01:07.851Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T22:01:07.851Z'
