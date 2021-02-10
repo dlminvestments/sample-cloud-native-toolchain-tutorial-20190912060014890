@@ -1,5 +1,4 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -29,6 +28,8 @@ patch:
         patched: '2019-09-23T08:05:21.744Z'
     - swagger-express-mw > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > rttc > lodash:
         patched: '2019-09-23T08:05:21.744Z'
+    - gulp-bower > inquirer > lodash:
+        patched: '2020-12-01T06:28:03.516Z'
   'npm:request:20160119':
     - phantomjs > request:
         patched: '2019-09-23T08:05:21.744Z'
