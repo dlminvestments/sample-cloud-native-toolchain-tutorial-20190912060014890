@@ -15,7 +15,7 @@
     "grunt-concurrent": "latest",
     "grunt-contrib-watch": "latest",
     "wd": "latest",
-    "chai": "latest",
+    "chai": "5.1.1",
     "chai-as-promised": "latest",
     "lodash": "latest",
     "colors": "latest"
